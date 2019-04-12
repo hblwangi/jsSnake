@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0
+}
+#title{
+    text-align: center;
+    margin-top: 120px;
+}
+#container{
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+}
+.grid{
+    float: left;
+    width: 20px;
+    height: 20px;
+    border: 1px solid saddlebrown;
+    box-sizing: border-box;
+}
+#snake{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+#food{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+.snake{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background: darkcyan;
+}
+
+.food{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background: seagreen;
+}

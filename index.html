@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Snake</title>
+</head>
+<body>
+    <div id="title">
+        <h2>贪吃蛇小游戏</h2>
+        <br>
+        <select name="" id="map">
+            <option value="">选择地图大小</option>
+            <option value="[10,10]">10*10</option>
+            <option value="[15,15]">15*15</option>
+            <option value="[20,20]">20*20</option>
+        </select>
+        <select name="" id="speed">
+            <option value="">选择速度</option>
+            <option value="300">快</option>
+            <option value="500">中</option>
+            <option value="1000">慢</option>
+        </select>
+        <br><br>
+        <button class="beginGame">开始游戏</button>
+    </div>
+    <div id="container">
+        <div id="gridCon"></div>
+        <div id="snake"></div>
+        <div id="food"></div>
+    </div>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
